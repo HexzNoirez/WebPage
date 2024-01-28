@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contacto</title>
+</head>
+<body>
+
+    <form class="form" action="form.html" method="get">
+    
+        <div class="flex">
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>nombre</span>
+            </label>
+    
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>apellido</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input required="" placeholder="" type="email" class="input">
+            <span>email</span>
+        </label> 
+            
+        <label>
+            <input required="" type="tel" placeholder="" class="input">
+            <span>contraseña</span>
+        </label>
+
+        <div class="flex">
+            <span>Gender</span>
+            <label class="gender">
+                <input type="radio" class="input01" name="gender" value="male">
+                <span>Hombre</span>
+            </label>
+            <label class="gender">
+                <input type="radio" class="input01" name="gender" value="female">
+                <span>Mujer</span>
+            </label>
+        </div>
+
+        <label>
+            <textarea required="" rows="3" placeholder="" class="input01"></textarea>
+            <span>comentario</span>
+        </label>
+
+        <label>
+            <select required="" class="input">
+                <option value="" selected disabled hidden></option>
+                <option value="city1">Guadalajara</option>
+                <option value="city2">Zapopan</option>
+                <option value="city3">Tlaquepaque</option>
+                <option value="city4">Tonalá</option>
+                <option value="city5">Otra</option>
+            </select>
+            <span>City</span>
+        </label>
+
+       
+        <label class="checkbox">
+            <input type="checkbox" class="input">
+            <span class="checkbox-text">Me gustaria contratarte</span>
+        </label>
+        
+        <button class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">enviar</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </button>
+    </form>
+
+</body>
+</html>
